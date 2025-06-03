@@ -1,7 +1,7 @@
 ---
-name: "Athena"
-headshot: "./images/athena.jpg"
-jobTitle: "Goddess of Wisdom"
+name: ""
+headshot: "./images/ECR-img-6.jpg"
+jobTitle: ""
 publish: true
 order: 5
 linkedin: "https://www.linkedin.com/in/athena/"

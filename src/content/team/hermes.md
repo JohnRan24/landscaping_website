@@ -1,7 +1,7 @@
 ---
-name: "Hermes"
-headshot: "./images/hermes.jpg"
-jobTitle: "God of the Sun"
+name: ""
+headshot: "./images/ECR-img-10.jpg"
+jobTitle: ""
 publish: true
 order: 9
 linkedin: "https://www.linkedin.com/in/hermes/"

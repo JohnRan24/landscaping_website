@@ -1,7 +1,7 @@
 ---
-name: "Demeter"
-headshot: "./images/demeter.jpg"
-jobTitle: "Goddess of the Harvest"
+name: ""
+headshot: "./images/ECR-img-7.jpg"
+jobTitle: ""
 publish: true
 order: 6
 linkedin: "https://www.linkedin.com/in/demeter/"

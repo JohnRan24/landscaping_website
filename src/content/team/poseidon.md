@@ -1,7 +1,7 @@
 ---
-name: "Poseidon"
-headshot: "./images/poseidon.jpg"
-jobTitle: "God of the Sea"
+name: ""
+headshot: "./images/ECR-img-11.jpg"
+jobTitle: ""
 publish: true
 order: 10
 linkedin: "https://www.linkedin.com/in/poseidon/"

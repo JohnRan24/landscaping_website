@@ -1,8 +1,7 @@
 ---
-import { footerMenu, legalMenu } from '@data/menu';
-import Logo from '@components/Logo.astro';
 import Button from '@components/ui/Button.astro';
 import { siteConfig } from '@data/config';
+import { Facebook, Instagram } from 'lucide-astro';
 
 interface ButtonProps {
   text: string;
@@ -23,7 +22,7 @@ const { footerCta } = Astro.props;
 
 const defaultCta = {
   title: "Ready to get started?",
-  description: "Join us today and transform your digital presence with our innovative solutions.",
+  description: "Join us today and transform your landscape presence with our innovative solutions.",
   hideCta: false,
   button: {
     text: "Contact Us",
@@ -59,21 +58,35 @@ const currentYear = new Date().getFullYear();
 
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-background-light">
       <div class="col-span-1">
-        <Logo variant="footer" />
         <p class="mt-4 text-white">
-          Empowering your digital journey with innovative solutions.
+          Empowering your landscape journey with innovative solutions.
         </p>
       </div>
       
       <div class="col-span-1">
-        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
-        <nav>
-          <ul class="space-y-2">
-            {footerMenu.map(item => (
-              <li><a href={item.link} class="text-body-dark hover:text-white transition-colors">{item.name}</a></li>
-            ))}
-          </ul>
-        </nav>
+        <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+          <nav class="mt-4 md:mt-0 flex flex-row gap-2">
+            <div class:list={[
+              "w-12 h-12 flex items-center justify-center rounded-lg mb-4",
+          ]}>
+              <a
+                        href={`https://www.facebook.com/share/16QtiUZpKf/?mibextid=wwXIfr`}
+                        class="flex items-center gap-2 text-body-base hover:text-primary transition-colors text-small w-12"
+                    >
+                    <Facebook size={28} class="text-white" />
+                  </a>
+              </div>
+              <div class:list={[
+                "w-12 h-12 flex items-center justify-center rounded-lg mb-4",
+            ]}>
+              <a
+                        href={`https://www.instagram.com/ecr.landscape?igsh=c3F2ZWJsMGE1MXBl`}
+                        class="flex items-center gap-2 text-body-base hover:text-primary transition-colors text-small w-12"
+                    >
+                    <Instagram size={28} class="text-white" />
+              </a> 
+              </div>       
+          </nav>
       </div>
     </div>
 
@@ -81,21 +94,6 @@ const currentYear = new Date().getFullYear();
       <div class="text-body-dark text-sm">
         © {currentYear} {siteConfig.companyName}. All rights reserved.
       </div>
-      
-      <nav class="mt-4 md:mt-0">
-        <ul class="flex flex-wrap gap-6">
-          {legalMenu.map(item => (
-            <li>
-              <a 
-                href={item.link} 
-                class="text-sm text-body-dark hover:text-white transition-colors"
-              >
-                {item.name}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
     </div>
   </div>
 </footer>

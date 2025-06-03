@@ -1,7 +1,7 @@
 ---
-name: "Ares"
-headshot: "./images/ares.jpg"
-jobTitle: "God of War"
+name: ""
+headshot: "./images/ECR-img-4.jpg"
+jobTitle: ""
 publish: true
 order: 3
 linkedin: "https://www.linkedin.com/in/ares/"

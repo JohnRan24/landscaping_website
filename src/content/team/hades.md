@@ -1,7 +1,7 @@
 ---
-name: "Hades"
-headshot: "./images/hades.jpg"
-jobTitle: "God of the Underworld"
+name: ""
+headshot: "./images/ECR-img-9.jpg"
+jobTitle: ""
 publish: true
 order: 8
 linkedin: "https://www.linkedin.com/in/hades/"

@@ -1,7 +1,7 @@
 ---
-name: "Apollo"
-headshot: "./images/apollo.jpg"
-jobTitle: "God of the Sun"
+name: ""
+headshot: "./images/ECR-img-3.jpg"
+jobTitle: ""
 publish: true
 order: 2
 linkedin: "https://www.linkedin.com/in/apollo/"

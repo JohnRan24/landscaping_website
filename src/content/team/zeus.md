@@ -1,7 +1,7 @@
 ---
-name: "Zeus"
-headshot: "./images/zeus.jpg"
-jobTitle: "God of Thunder"
+name: ""
+headshot: "./images/ECR-img-1.jpg"
+jobTitle: ""
 publish: true
 order: 1
 linkedin: "https://www.linkedin.com/in/zeus/"

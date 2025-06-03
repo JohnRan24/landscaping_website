@@ -1,21 +1,16 @@
 export const siteConfig = {
-  companyName: 'Titan Core',
+  companyName: 'ECR Landscape',
   siteUrl: 'https://titan-core.com',
   Socials: {
-      xSocial: 'https://x.com/astrodotbuild',
-      Github: 'https://github.com/withastro',
-      Instagram: 'https://www.instagram.com/astrodotbuild',
-      LinkedIn: 'https://www.linkedin.com/company/astrodotbuild',
-      Email: 'support@titan-core.com',
-      Phone: '+123 456 7890',
-      Location: '123 Main St, Anytown, USA',
+      Email: 'Ecr.landscape@icloud.com',
+      Phone: '+801 882 5985',
   }
 };
 
 export const SEO = {
   Separator: '|',
-  SiteName: 'Titan Core',
-  defaultDescription: 'A modern, high-performance Astro JS theme',
+  SiteName: 'ECR Landscape',
+  defaultDescription: 'ECR Landscape Quality Landscape & Services.',
 };
   
 export const blogSetting = {

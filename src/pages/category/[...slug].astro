@@ -1,6 +1,5 @@
 ---
 import { getCollection } from 'astro:content';
-import PaginatedBlogLayout from '../../components/blog/PaginatedBlogLayout.astro';
 import { categories } from '../../data/categories';
 import { blogSetting } from '../../data/config';
 
@@ -44,12 +43,3 @@ const start = (currentPage - 1) * blogSetting.postsPerPage;
 const end = start + blogSetting.postsPerPage;
 const paginatedPosts = sortedPosts.slice(start, end);
 ---
-
-<PaginatedBlogLayout 
-    posts={paginatedPosts}
-    currentPage={currentPage}
-    totalPages={totalPages}
-    baseUrl={`/category/${category.slug}`}
-    title={category.name}
-    subtitle={category.description}
-    currentCategory={category.name} /> 

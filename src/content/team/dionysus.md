@@ -1,7 +1,7 @@
 ---
-name: "Dionysus"
-headshot: "./images/dionysus.jpg"
-jobTitle: "God of Wine"
+name: ""
+headshot: "./images/ECR-img-8.jpg"
+jobTitle: ""
 publish: true
 order: 7
 linkedin: "https://www.linkedin.com/in/dionysus/"

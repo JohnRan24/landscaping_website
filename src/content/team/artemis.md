@@ -1,7 +1,7 @@
 ---
-name: "Artemis"
-headshot: "./images/artemis.jpg"
-jobTitle: "Goddess of the Hunt"
+name: ""
+headshot: "./images/ECR-img-5.jpg"
+jobTitle: ""
 publish: true
 order: 4
 linkedin: "https://www.linkedin.com/in/artemis/"

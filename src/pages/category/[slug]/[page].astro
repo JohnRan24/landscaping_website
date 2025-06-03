@@ -1,6 +1,5 @@
 ---
 import { getCollection } from 'astro:content';
-import PaginatedBlogLayout from '../../../components/blog/PaginatedBlogLayout.astro';
 import { categories } from '../../../data/categories';
 import { blogSetting } from '../../../data/config';
 
@@ -61,12 +60,3 @@ if (page === 1) {
     return Astro.redirect(`/category/${category.slug}`);
 }
 ---
-
-<PaginatedBlogLayout 
-    posts={posts}
-    currentPage={page}
-    totalPages={totalPages}
-    baseUrl={`/category/${category.slug}`}
-    title={category.name}
-    subtitle={category.description}
-    currentCategory={category.name} /> 
