@@ -1,6 +1,6 @@
 ---
 name: ""
-headshot: "./images/ECR-img-11.jpg"
+headshot: "./images/ECR-img-3.jpg"
 jobTitle: ""
 publish: true
 order: 10
