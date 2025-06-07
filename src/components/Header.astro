@@ -19,7 +19,7 @@ const isCurrentPage = (link: string) => {
     <div class="site-container mx-auto px-4 mt-4">
         <div class="flex justify-between items-center bg-white py-4 rounded-lg px-4 border-black border">
             <Logo />
-            <nav class="relative flex items-center gap-2 lg:gap-8" aria-label="Site Navigation">
+            <nav class="sm:hiddenrelative flex items-center gap-2 lg:gap-8" aria-label="Site Navigation">
                 {/* Desktop Menu */}
                 <ul class=" lg:flex lg:gap-8 items-center">
                     {
@@ -47,7 +47,7 @@ const isCurrentPage = (link: string) => {
 
                 {/* Mobile Menu Button */}
                 <button
-                    class="mobile-menu-button relative z-30 p-2 border-none cursor-pointer bg-transparent"
+                    class="mobile-menu-button relative z-30 p-2 border-none cursor-pointer bg-transparent lg:hidden"
                     aria-label="Toggle Menu"
                     aria-expanded="false"
                 >
