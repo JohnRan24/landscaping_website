@@ -29,7 +29,7 @@ const isCurrentPage = (link: string) => {
                                     <a
                                         href={item.link}
                                         class:list={[
-                                            'hidden text-small font-medium rounded-md px-2 py-1 focus:outline-none focus:ring-2 focus:ring-nav-text-active',
+                                            'hidden sm:block text-small font-medium rounded-md px-2 py-1 focus:outline-none focus:ring-2 focus:ring-nav-text-active',
                                             isCurrentPage(item.link)
                                                 ? 'text-nav-text-current font-semibold'
                                                 : 'text-nav-text hover:text-nav-text-hover',
