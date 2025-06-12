@@ -1,6 +1,6 @@
 export const siteConfig = {
   companyName: 'ECR Landscape',
-  siteUrl: 'https://titan-core.com',
+  siteUrl: 'https://ecrlandscapeandex.com',
   Socials: {
       Email: 'Ecr.landscape@icloud.com',
       Phone: '+801 882 5985',
