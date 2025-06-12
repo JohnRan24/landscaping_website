@@ -3,7 +3,7 @@ export const siteConfig = {
   siteUrl: 'https://ecrlandscapeandex.com',
   Socials: {
       Email: 'Ecr.landscape@icloud.com',
-      Phone: '+801 882 5985',
+      Phone: '801 882 5985',
   }
 };
 
