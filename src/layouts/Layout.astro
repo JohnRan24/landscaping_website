@@ -34,6 +34,8 @@ const pageImage = image || '';
 const canonicalPath = canonicalUrl || Astro.url.pathname;
 const fullCanonicalUrl = new URL(canonicalPath, siteConfig.siteUrl).toString();
 
+import { AstroSEO } from 'astro-seo-plugin';
+
 ---
 
 <!doctype html>
@@ -82,3 +84,43 @@ const fullCanonicalUrl = new URL(canonicalPath, siteConfig.siteUrl).toString();
 		</script>
 	</body>
 </html>
+
+<AstroSEO
+  title="ECR Landscape"
+  description="ECR Landscape Quality Landscape & Services."
+  openGraph={{
+    title: "ECR Landscape",
+    description: "ECR Landscape",
+    image: "../assets/images/home/Logo-3.png",
+    type: "website"
+  }}
+  twitter={{
+    card: "summary_large_image",
+    site: "@yourhandle",
+    creator: "@yourhandle"
+  }}
+  jsonLd={{
+    "@type": "WebPage",
+    name: "ECR Landscape",
+    description: "ECR Landscape",
+  }}
+  robots={{
+    index: true,
+    follow: true,
+    noarchive: false,
+    nosnippet: false,
+    maxSnippet: 150,
+  }}
+  additionalLinkTags={[
+    { rel: "canonical", href: "#" },
+    { rel: "prev", href: Astro.url },
+    { rel: "next", href: Astro.url },
+    { rel: "alternate", href: Astro.url }
+  ]}
+  additionalMetaTags={[
+    {
+      name: "ECR Landscape",
+      content: "astro, seo, astro-seo-plugin, meta tags, beginner guide"
+    }
+  ]}
+/>
